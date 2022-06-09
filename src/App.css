@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 .container {
@@ -90,6 +91,7 @@
 
 .about {
 	height: 50vh;
+	position: relative;
 }
 
 .sectionTitle {
@@ -110,7 +112,7 @@
 
 .skills {
 	max-width: 40vw;
-	max-height: 10vh;
+	height: fit-content;
 }
 
 .skill {
@@ -169,7 +171,7 @@
 }
 
 .work {
-	height: 50vh;
+	height: fit-content;
 }
 
 .workContainer {
@@ -209,6 +211,42 @@
 	max-width: 25vw;
 	padding: 10px;
 	margin-top: 4vh;
+}
+
+.contact {
+	height: 50vh;
+	margin-top: 40px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 10vh;
+}
+
+.contactCard {
+	display: flex;
+	width: fit-content;
+	padding: 5px;
+	height: 5vh;
+	background-color: #C12F2F;
+	border-radius: 20px;
+	color: #fff;
+	align-items: center;
+}
+
+.contact h2 {
+	display: inline-block;
+	font-size: 1.25vw;
+	margin-left: 5px;
+}
+
+.contact img {
+	float: left;
+	padding: 5px;
+	margin: auto;
+	max-width: 8vw;
+	max-height: 4vh;
 }
 
 

@@ -14,16 +14,11 @@ export default function App() {
 						<a href="#">Reviews</a>
 						<a href="#">Contact</a>
 					</div>
-					<div class="hamburger">
-						<div class="line1"></div>
-            			<div class="line2"></div>
-						<div class="line3"></div>
-					</div>
 			</div>
 			<div className="banner">
 				<h1 className="title">Hello, Im <span>Mason</span> </h1>
 				<p className="subtitle">I am a freelance Developer.</p>
-				<img className="me" src="/src/assets/mason.png"></img>
+				<img className="me" src="../mason.png"></img>
 			</div>
 			<div className="about">
 				<h1 className="sectionTitle">About Me</h1>
@@ -55,37 +50,44 @@ export default function App() {
 				<h1 className="sectionTitle">My Work</h1>
 				<div className="workContainer">
 						<div className="workCard">
-							<img src="/src/assets/proj1.png"></img>
+							<img src="../proj1.png"></img>
 							<h1 className="workTitle">Claims</h1>
 							<h1 className="workLang">Java</h1>
 							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
 						</div>
 						<div className="workCard">
-							<img src="/src/assets/proj1.png"></img>
+							<img src="../proj1.png"></img>
 							<h1 className="workTitle">Claims</h1>
 							<h1 className="workLang">Java</h1>
 							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
 						</div>
 						<div className="workCard">
-							<img src="/src/assets/proj1.png"></img>
+							<img src="../proj1.png"></img>
 							<h1 className="workTitle">Claims</h1>
 							<h1 className="workLang">Java</h1>
 							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
 						</div>
 				</div>
 			</div>
+			<div className="contact">
+				<h1 className="sectionTitle">Contact me</h1>
+				<div className="cards">
+				<div className="contactCard">
+					<img src="../discord.png"></img>
+					<h2>Mason King#9052</h2>
+				</div>
+				<div className="contactCard">
+					<img src="../Mcm.png"></img>
+					<h2>Mason.king</h2>
+				</div>
+				<div className="contactCard">
+					<img src="../git.png"></img>
+					<h2>Mason_king</h2>	
+				</div>
+				</div>
+			</div>
 	  	</div>
 		<div className="right"></div>
 	  </div>
   )
-}
-
-function hamburger() {
-	var x = document.getElementById('navItems');
-	if(x == null) return;
-	if(x.className === "navItems") {
-		x.className += " responsive";
-	} else {
-		x.className = "navItems";
-	}
 }
