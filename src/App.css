@@ -9,7 +9,7 @@
 
 .container {
 	display: grid;
-	grid-template-columns: 5vw 90vw 5vw;
+	grid-template-columns: 8vw 84vw 8vw;
 	min-height: 100%;
 }
 
@@ -81,10 +81,10 @@
 
 .me {
 	position: absolute;
-	top: 0;
+	top: 10vh;
 	width: 25vw;
 	height: 25vw;
-	margin-left: 60vw;
+	margin-left: 55vw;
 	background-color: #F3F4F5;
 	border-radius: 50%;
 }
@@ -188,13 +188,13 @@
 }
 
 .workCard img {
-	max-width: 25vw;
+	width: 25vw;
 	border-radius: 30px 30px 0 0;
 }
 
 .workTitle {
 	font-size: 1.25vw;
-	max-width: 40%;
+	max-width: 50%;
 	float: left;
 	padding: 10px;
 }
@@ -208,9 +208,8 @@
 }
 
 .description {
-	max-width: 25vw;
+	float: left;
 	padding: 10px;
-	margin-top: 4vh;
 }
 
 .contact {
@@ -233,6 +232,7 @@
 	border-radius: 20px;
 	color: #fff;
 	align-items: center;
+	overflow-y: hidden;
 }
 
 .contact h2 {

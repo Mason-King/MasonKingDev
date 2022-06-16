@@ -8,11 +8,10 @@ export default function App() {
 			<div className="nav">
 					<h1 className="name">Mason King</h1>
 					<div className="navItems">
-						<a href="#">About Me</a>
-						<a href="#">Experience</a>
-						<a href="#">My Work</a>
-						<a href="#">Reviews</a>
-						<a href="#">Contact</a>
+						<a href="#about">About Me</a>
+						<a href="#experience">Experience</a>
+						<a href="#work">My Work</a>
+						<a href="#contact">Contact</a>
 					</div>
 			</div>
 			<div className="banner">
@@ -20,11 +19,11 @@ export default function App() {
 				<p className="subtitle">I am a freelance Developer.</p>
 				<img className="me" src="../mason.png"></img>
 			</div>
-			<div className="about">
+			<div className="about" id="about">
 				<h1 className="sectionTitle">About Me</h1>
 				<p>Hello, My name is Mason. I am currently 17 years old and a Junior in Highschool. I have been coding for roughly 3 years now, starting in Java. Most of my development knowledge roots from the SpigotAPI, a API used to create Minecraft plugins. I have also used many different languages. Throughout Higschool thus far, I have maintained a 3.5 GPA while enrolled in AP and advanced classes. After Highschool I plan to presue a carrer in Computer Networking.</p>				
 			</div>
-			<div className="experience">
+			<div className="experience" id="experience">
 				<h1 className="sectionTitle">Experience</h1>
 				<p>Throughout my time as a freelancer I have learned many skills. I have completed 30+ Minecraft plugins in the course of 2 years, aswell as many other personal projects.</p>
 				<div className="skills">
@@ -46,30 +45,30 @@ export default function App() {
 					</div>
 				</div>
 			</div>
-			<div className="work">
+			<div className="work" id="work">
 				<h1 className="sectionTitle">My Work</h1>
 				<div className="workContainer">
 						<div className="workCard">
 							<img src="../proj1.png"></img>
 							<h1 className="workTitle">Claims</h1>
 							<h1 className="workLang">Java</h1>
-							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
+							<p className="description">Claims plugin is your basic claims plugin, with the ability to ban and kick players, as well as change visitors and trusted permissions.</p>
 						</div>
 						<div className="workCard">
-							<img src="../proj1.png"></img>
-							<h1 className="workTitle">Claims</h1>
+							<img src="../proj2.png"></img>
+							<h1 className="workTitle">Blackmarket</h1>
 							<h1 className="workLang">Java</h1>
-							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
+							<p className="description">Blackmarket features a wondering NPC with a rotating shop. The NPC moves to locations predefined and changes its shop items every time it switches.</p>
 						</div>
 						<div className="workCard">
-							<img src="../proj1.png"></img>
-							<h1 className="workTitle">Claims</h1>
+							<img src="../proj3.png"></img>
+							<h1 className="workTitle">Custom Enchants</h1>
 							<h1 className="workLang">Java</h1>
-							<p className="description">This is a sample plugin description, this will need to be edited at some point and time... Just a placeholder</p>
+							<p className="description">This was a complete remake of all of the Archon Custom enchants. Featuring over 60 different enchants, tikerere, and scrolls.</p>
 						</div>
 				</div>
 			</div>
-			<div className="contact">
+			<div className="contact" id="contact">
 				<h1 className="sectionTitle">Contact me</h1>
 				<div className="cards">
 				<div className="contactCard">
