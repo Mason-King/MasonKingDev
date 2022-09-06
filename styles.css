@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');	
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.handWave {
+    width: 8vh;
+    height: 8vh;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+
+.headerTitle {
+    font-weight: 600;
+    font-size: 4vh;
+    margin-left: 15vw;
+}
+
+.headerTitle span {
+    color: #E73636;
+}
+
+.headerSubTitle {
+    font-size: 2vh;
+    margin-left: 15vw;
+}
+
+.me {
+    display: none;
+}
+
+.titles {
+    float: left;
+}
+
+.aboutMe {
+    background-color: #E73636;
+    height: 10vh;
+    margin-top: 15vh;
+    height: 30vh;
+}
+
+.aboutTitle {
+    color: #fff;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+
+.aboutMe p {
+    color: #fff;
+    position: absolute;
+    font-weight: 300;
+    font-size: 1.5vh;
+    max-width: 70vw;
+    margin-top: 8vh;
+    margin-left: 17vw;
+    text-align: ce;
+}
+
+.aboutBottom {
+    transform: rotate(180deg);
+    display: block;
+    margin-top: -25px;
+}
+
+.skillsTitle {
+    color: #E73636;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-left: 15vw;
+}
+
+.skillContainer {
+    display: grid;
+    justify-content: center;
+    padding-top: 5vh;
+    grid-gap: 3em;
+    grid-template-columns: repeat(3, 5vh);
+    grid-template-rows: repeat(2, 5vh);
+}
+
+.skillContainer img {
+    width: 5vh;
+}
+
+.acomplishments {
+    height:fit-content
+}
+
+.acomplishmentTitle {
+    color: #E73636;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-left: 15vw;
+    margin-top: 4vh;
+}
+
+.list {
+    max-width: 70vw;
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 20vw;
+    font-size: 1.5vh;
+}
+
+.skillsBottom {
+    margin-top: 20vh;
+}
+
+.work {
+    background-color: #E73636;
+    margin-top: -7px;
+}
+
+.workTitle {
+    color: #fff;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-left: 15vw;
+}
+
+.workContainer {
+    display: grid;
+    padding: 5vh 0;
+    gap: 4em;
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(40vw, 40vw));
+    grid-template-rows: repeat(2, 40vw);
+}
+
+.workCard {
+    width: 40vw;
+    height:40vw;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.workCard h3 {
+    margin-top: 14vh;
+    margin-left: 2vw;
+    font-size: 1.5vh;
+}
+
+.workBottom {
+    transform: rotate(180deg);
+    margin-top: -5px;
+}
+
+.contactTitle {
+    color: #E73636;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-left: 15vw;
+}
+
+.contact {
+    height: 20vh;
+    display: "inline-block";
+}
+
+.icon {
+    height: 8vh;
+    padding: 10px;
+}
+
+.contact h2 {
+    margin-left: 30vw;
+    font-size: 2vh;
+    margin-top: -6vh;
+    color: #E73636;
+}
+
+.platform {
+    padding: 3vh;
+}
+@media screen and (max-width: 600px) {
+    * {
+        background-color: rebeccapurple;
+    }
+}
