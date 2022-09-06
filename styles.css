@@ -30,6 +30,10 @@
 }
 
 .me {
+    height: 25vh;
+    float: right;
+    margin-top: -20vh;
+    margin-right: 10vw;
     display: none;
 }
 
@@ -172,10 +176,11 @@
 .icon {
     height: 8vh;
     padding: 10px;
+    margin-left: 8vw;
 }
 
 .contact h2 {
-    margin-left: 30vw;
+    margin-left: 20vh;
     font-size: 2vh;
     margin-top: -6vh;
     color: #E73636;
@@ -184,8 +189,121 @@
 .platform {
     padding: 3vh;
 }
-@media screen and (max-width: 600px) {
-    * {
-        background-color: rebeccapurple;
+@media screen and (min-width: 600px) {
+    .aboutMe p {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .aboutMe p {
+        font-size: 2vh;
+    }
+    .platform{
+        margin-left: 30vw;
+    }
+    .contact h2 {
+        margin-left: 20vh;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .aboutMe {
+        height: 25vh;
+    }
+    .aboutMe p {
+        font-size: 2vh;
+    }
+    .skillContainer img {
+        width: 8vh;
+    }
+    .skillContainer {
+        grid-template-columns: repeat(3, 8vh);
+        grid-template-rows: repeat(2, 8vh);
+    }
+    .list {
+        font-size: 2vh;
+    }
+    .workContainer {
+        grid-template-columns: repeat(2, minmax(30vw, 30vw));
+        grid-template-rows: repeat(2, 30vw);
+    }
+    .workCard {
+        width: 30vh;
+        height: 30vh;   
+    }
+
+    .platform{
+        margin-left: 30vw;
+    }
+    .contact h2 {
+        margin-left: 20vh;
+    }
+
+    .me {
+        display: block;
+        width: 40vh;
+        height: 40vh;
+        margin-top: -30vh;
+    }
+
+    .handWave {
+        height: 15vh;
+        width: 15vh;
+    }
+
+    .headerTitle {
+        font-size: 7vh;;
+    }
+    .headerSubTitle {
+        font-size: 3vh;;
+    }
+    .aboutTitle {
+        font-size: 3vh;
+    }
+    .skillsTitle {
+        font-size: 3vh;;
+    }
+    .acomplishmentTitle {
+        font-size: 3vh;
+    }
+    .workTitle {
+        font-size: 3vh;
+    }
+    .contactTitle {
+        font-size: 3vh;
+    }
+
+    .aboutMe p {
+        font-size: 2.5vh;
+    }
+    .contact h2 {
+        font-size:3vh;
+    }
+
+}
+@media screen and (min-width: 900px) {
+    .workContainer {
+        grid-template-columns: repeat(2, minmax(40vw, 40vw));
+        grid-template-rows: repeat(2, 40vw);
+    }
+    .workCard {
+        width: 40vh;
+        height: 40vh;   
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .workContainer { 
+        margin-left: 10vw;
+        grid-template-columns: repeat(2, minmax(30vw, 30vw));
+        grid-template-rows: repeat(1, 30vw);
+    }
+    .workCard {
+        width: 40vh;
+        height: 40vh;   
+    }
+    .contact h2 {
+        margin-left: 25vh;
     }
 }
